@@ -1,0 +1,127 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+}
+
+@section Styles {
+    <link href="~/css/trangchu.css" rel="stylesheet">
+}
+
+<!-- Banner chính -->
+<div class="hero-banner">
+    <div>
+        <h1>Khuyến mãi đặc biệt!</h1>
+        <p>Giảm giá lên đến 50% cho sản phẩm mới</p>
+        <a asp-area="AreasCustomer" asp-controller="Product" asp-action="Index" class="btn btn-danger">Xem ngay</a>
+    </div>
+</div>
+
+<!-- Danh mục sản phẩm nổi bật -->
+<div class="product-category">
+    <div class="container">
+        <h2 class="text-center section-title">Danh mục sản phẩm nổi bật</h2>
+        
+        <!-- Carousel danh mục -->
+        <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <!-- Danh mục sản phẩm sẽ được thêm vào đây -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#categoryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sản phẩm bán chạy / Gợi ý cho bạn -->
+<div class="container">
+    <h2 class="text-center section-title">Sản phẩm bán chạy</h2>
+    
+    <!-- Carousel sản phẩm -->
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <!-- Sản phẩm sẽ được thêm vào đây -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        </div>
+    </div>
+</div>
+
+<!-- Khu vực đánh giá nổi bật -->
+<div class="reviews-section">
+    <div class="container">
+        <h2 class="text-center section-title">Đánh giá nổi bật</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="review-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=80" 
+                             class="rounded-circle me-3" width="50" height="50" alt="Avatar">
+                        <div>
+                            <h6 class="mb-0 text-primary-green">Minh Anh</h6>
+                            <small class="text-muted">Khách hàng thân thiết</small>
+                        </div>
+                    </div>
+                    <p class="card-text">"Sản phẩm rất tốt! Da tôi trở nên mềm mại và sáng khỏe hơn nhiều sau khi sử dụng."</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="review-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=80" 
+                             class="rounded-circle me-3" width="50" height="50" alt="Avatar">
+                        <div>
+                            <h6 class="mb-0 text-primary-green">Thu Hương</h6>
+                            <small class="text-muted">Khách hàng VIP</small>
+                        </div>
+                    </div>
+                    <p class="card-text">"Chất lượng tuyệt vời, hoàn toàn từ thiên nhiên. Sẽ tiếp tục ủng hộ shop!"</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="review-card">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&q=80" 
+                             class="rounded-circle me-3" width="50" height="50" alt="Avatar">
+                        <div>
+                            <h6 class="mb-0 text-primary-green">Đức Minh</h6>
+                            <small class="text-muted">Khách hàng mới</small>
+                        </div>
+                    </div>
+                    <p class="card-text">"Giao hàng nhanh, đóng gói cẩn thận. Sản phẩm đúng như mô tả, rất hài lòng!"</p>
+                    <div class="stars">⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/trangchu.js"></script>
+}

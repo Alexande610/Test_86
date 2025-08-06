@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TailieucuaMintPhut\\Areas_Customer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\controllers\\infocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\controllers\\infocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\wwwroot\\css\\trangchu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\wwwroot\\css\\trangchu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\info\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\info\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\wwwroot\\css\\thongtin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\wwwroot\\css\\thongtin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\wwwroot\\css\\datcho.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\wwwroot\\css\\datcho.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\wwwroot\\js\\datcho.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\wwwroot\\js\\datcho.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\wwwroot\\js\\thongtin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\wwwroot\\js\\thongtin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\areas\\areascustomer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\areas\\areascustomer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|c:\\tailieucuamintphut\\areas_customer\\areas_customer\\wwwroot\\js\\trangchu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F7F60807-60D2-4367-B29B-DB41D356F88D}|Areas_Customer\\Areas_Customer.csproj|solutionrelative:areas_customer\\wwwroot\\js\\trangchu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:55:33.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:55:01.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfoController.cs",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Controllers\\InfoController.cs",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Controllers\\InfoController.cs",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Controllers\\InfoController.cs",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Controllers\\InfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:55:56.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:57:45.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T17:11:57.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T18:01:18.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "trangchu.css",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\css\\trangchu.css",
+              "RelativeDocumentMoniker": "Areas_Customer\\wwwroot\\css\\trangchu.css",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\css\\trangchu.css",
+              "RelativeToolTip": "Areas_Customer\\wwwroot\\css\\trangchu.css",
+              "ViewState": "AgIAADcBAAAAAAAAAAAAAEUBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-14T15:59:53.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Info\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Info\\Index.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Info\\Index.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Info\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:58:01.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "thongtin.css",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\css\\thongtin.css",
+              "RelativeDocumentMoniker": "Areas_Customer\\wwwroot\\css\\thongtin.css",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\css\\thongtin.css",
+              "RelativeToolTip": "Areas_Customer\\wwwroot\\css\\thongtin.css",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAALQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-14T16:00:58.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "datcho.css",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\css\\datcho.css",
+              "RelativeDocumentMoniker": "Areas_Customer\\wwwroot\\css\\datcho.css",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\css\\datcho.css",
+              "RelativeToolTip": "Areas_Customer\\wwwroot\\css\\datcho.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-14T16:00:40.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "datcho.js",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\js\\datcho.js",
+              "RelativeDocumentMoniker": "Areas_Customer\\wwwroot\\js\\datcho.js",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\js\\datcho.js",
+              "RelativeToolTip": "Areas_Customer\\wwwroot\\js\\datcho.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-14T16:01:31.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "thongtin.js",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\js\\thongtin.js",
+              "RelativeDocumentMoniker": "Areas_Customer\\wwwroot\\js\\thongtin.js",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\js\\thongtin.js",
+              "RelativeToolTip": "Areas_Customer\\wwwroot\\js\\thongtin.js",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAkwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-14T16:01:43.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T18:09:18.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T18:09:11.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:57:55.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:59:06.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:58:51.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas_Customer\\Areas\\AreasCustomer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:58:35.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Areas_Customer\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Areas_Customer\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-13T15:18:29.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Program.cs",
+              "RelativeDocumentMoniker": "Areas_Customer\\Program.cs",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\Program.cs",
+              "RelativeToolTip": "Areas_Customer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T16:38:22.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "trangchu.js",
+              "DocumentMoniker": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\js\\trangchu.js",
+              "RelativeDocumentMoniker": "Areas_Customer\\wwwroot\\js\\trangchu.js",
+              "ToolTip": "C:\\TailieucuaMintPhut\\Areas_Customer\\Areas_Customer\\wwwroot\\js\\trangchu.js",
+              "RelativeToolTip": "Areas_Customer\\wwwroot\\js\\trangchu.js",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAkwJcBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-14T16:01:19.308Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

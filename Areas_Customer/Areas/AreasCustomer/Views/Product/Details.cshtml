@@ -1,0 +1,189 @@
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+}
+
+@section Styles {
+    <link href="~/css/chitiet-sanpham.css" rel="stylesheet">
+}
+
+<!-- Breadcrumb -->
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a asp-area="AreasCustomer" asp-controller="Home" asp-action="Index">Trang chủ</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a asp-area="AreasCustomer" asp-controller="Product" asp-action="Index">Sản phẩm</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a asp-area="AreasCustomer" asp-controller="Product" asp-action="Index">Chăm sóc da</a>
+            </li>
+            <li class="breadcrumb-item active" id="breadcrumbProduct">Tên sản phẩm</li>
+        </ol>
+    </nav>
+</div>
+
+<!-- Product Detail -->
+<div class="container">
+    <div class="product-detail-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="product-images">
+                    <img id="mainImage" src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Product Image" class="main-image">
+                    <div class="thumbnail-images">
+                        <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Thumbnail 1" class="thumbnail active" onclick="changeMainImage(this.src)">
+                        <img src="https://images.unsplash.com/photo-1556229010-e5ac1b9e5e47?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Thumbnail 2" class="thumbnail" onclick="changeMainImage(this.src)">
+                        <img src="https://images.unsplash.com/photo-1585652757141-032b1374cf12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Thumbnail 3" class="thumbnail" onclick="changeMainImage(this.src)">
+                        <img src="https://images.unsplash.com/photo-1586595299850-88fb7d7fa2b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Thumbnail 4" class="thumbnail" onclick="changeMainImage(this.src)">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="product-badge" id="productBadge">Yêu Thích</div>
+                <h1 class="product-title" id="productTitle">[DAILY] Nước Tẩy Trang Garnier Làm Sạch Sâu Dịu Nhẹ Cho Mọi Loại Da 400ml</h1>
+                <div class="product-rating">
+                    <div class="rating-stars" id="productRating">⭐⭐⭐⭐⭐</div>
+                    <span class="rating-count" id="productRatingCount">4.9 (28.5k Đánh Giá)</span>
+                </div>
+                <div class="product-price">
+                    <span class="current-price" id="productCurrentPrice">155.000₫</span>
+                </div>
+
+                <!-- Product Options -->
+                <div class="product-options" id="productOptions">
+                    <!-- Tùy chọn sẽ được tạo động bằng JavaScript -->
+                </div>
+
+                <div class="quantity-section">
+                    <div class="quantity-label">Số Lượng</div>
+                    <div class="quantity-controls">
+                        <button class="quantity-btn" onclick="decreaseQuantity()">-</button>
+                        <input type="number" id="productQuantity" class="quantity-input" value="1" min="1" max="99">
+                        <button class="quantity-btn" onclick="increaseQuantity()">+</button>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn-add-to-cart" onclick="addToCart()">
+                            <i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ Hàng
+                        </button>
+                        <button class="btn-buy-now" onclick="buyNow()">
+                            Mua Ngay
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Details Section -->
+<div class="container">
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-details-section">
+        <div class="product-specs">
+            <h6 class="specs-title">CHI TIẾT SẢN PHẨM</h6>
+            <div class="spec-row">
+                <span class="spec-label">Danh Mục</span>
+                <span class="spec-value" id="productCategory">Chăm sóc da</span>
+            </div>
+            <div class="spec-row">
+                <span class="spec-label">Thương hiệu</span>
+                <span class="spec-value" id="productBrand">Garnier</span>
+            </div>
+            <div class="spec-row">
+                <span class="spec-label">Hạn sử dụng</span>
+                <span class="spec-value" id="productExpiry">3 Năm kể từ ngày sản xuất</span>
+            </div>
+            <div class="spec-row">
+                <span class="spec-label">Xuất xứ</span>
+                <span class="spec-value" id="productOrigin">Pháp</span>
+            </div>
+            <div class="spec-row">
+                <span class="spec-label">Dung tích</span>
+                <span class="spec-value" id="productVolume">400ml</span>
+            </div>
+        </div>
+
+        <!-- Product Description -->
+        <div class="product-description">
+            <h6 class="desc-title">MÔ TẢ SẢN PHẨM</h6>
+            <div class="desc-content" id="productDescription">
+                <p><strong>Nước Tẩy Trang Garnier Làm Sạch Sâu Dịu Nhẹ</strong> là sản phẩm chăm sóc da hàng ngày được yêu thích với công thức đặc biệt từ thiên nhiên.</p>
+                
+                <h6>✨ Ưu điểm nổi bật:</h6>
+                <ul>
+                    <li>Làm sạch sâu makeup và bụi bẩn một cách dịu nhẹ</li>
+                    <li>Phù hợp với mọi loại da, kể cả da nhạy cảm</li>
+                    <li>Không gây khô da hay kích ứng</li>
+                    <li>Công thức không chứa cồn, paraben</li>
+                    <li>Dung tích lớn 400ml, sử dụng được lâu dài</li>
+                </ul>
+
+                <h6>🌿 Thành phần chính:</h6>
+                <ul>
+                    <li>Chiết xuất hoa mua ruồi: làm dịu da</li>
+                    <li>Vitamin E: chống oxy hóa</li>
+                    <li>Glycerin: cấp ẩm cho da</li>
+                </ul>
+
+                <h6>💡 Hướng dẫn sử dụng:</h6>
+                <ol>
+                    <li>Lấy một lượng vừa đủ nước tẩy trang ra bông tẩy trang</li>
+                    <li>Nhẹ nhàng lau sạch mặt và vùng mắt</li>
+                    <li>Không cần rửa lại với nước</li>
+                    <li>Sử dụng hàng ngày, buổi tối trước khi đi ngủ</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Reviews Section -->
+        <div class="reviews-section">
+            <h6 class="reviews-title">ĐÁNH GIÁ SẢN PHẨM</h6>
+            <div class="overall-rating">
+                <div class="rating-number">4.9</div>
+                <div class="rating-info">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <div class="rating-text">28.5k đánh giá</div>
+                </div>
+            </div>
+
+            <!-- Individual Reviews -->
+            <div class="review-item">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" class="reviewer-avatar" alt="Reviewer">
+                        <div class="reviewer-details">
+                            <div class="reviewer-name">Minh Anh</div>
+                            <div class="review-date">2 ngày trước</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="review-content">
+                    Sản phẩm rất tốt! Tẩy trang sạch sẽ mà không hề khô da. Mình đã dùng được 2 tháng rồi và sẽ tiếp tục repurchase.
+                </div>
+            </div>
+
+            <div class="review-item">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" class="reviewer-avatar" alt="Reviewer">
+                        <div class="reviewer-details">
+                            <div class="reviewer-name">Thu Hương</div>
+                            <div class="review-date">1 tuần trước</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐</div>
+                </div>
+                <div class="review-content">
+                    Chất lượng ổn, tẩy sạch makeup khá tốt. Giá cả hợp lý so với dung tích. Giao hàng nhanh, đóng gói cẩn thận.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/chitiet-sanpham.js"></script>
+}

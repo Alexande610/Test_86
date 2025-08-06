@@ -1,0 +1,102 @@
+@{
+    ViewBag.Title = "Sản phẩm";
+}
+
+@section Styles {
+    <link href="~/css/sanpham.css" rel="stylesheet">
+}
+
+<div class="container mt-4 pt-3">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-lg-3">
+            <!-- Categories -->
+            <div class="sidebar">
+                <h5><i class="fas fa-list"></i> Danh Mục</h5>
+                <ul class="category-list">
+                    <li><a href="#" class="active"><i class="fas fa-leaf"></i>Tất Cả Sản Phẩm</a></li>
+                    <li><a href="#"><i class="fas fa-spa"></i>Chăm Sóc Da</a></li>
+                    <li><a href="#"><i class="fas fa-palette"></i>Trang Điểm</a></li>
+                    <li><a href="#"><i class="fas fa-cut"></i>Dưỡng Tóc</a></li>
+                    <li><a href="#"><i class="fas fa-sun"></i>Chống Nắng</a></li>
+                    <li><a href="#"><i class="fas fa-seedling"></i>Tinh Dầu</a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i>Chăm Sóc Cơ Thể</a></li>
+                </ul>
+            </div>
+
+            <!-- Price Filter -->
+            <div class="filter-section">
+                <h6><i class="fas fa-dollar-sign"></i> Khoảng Giá</h6>
+                <div class="price-range">
+                    <input type="number" class="price-input" placeholder="Từ" min="0">
+                    <span class="mx-2">-</span>
+                    <input type="number" class="price-input" placeholder="Đến" min="0">
+                </div>
+                <button class="btn btn-outline-success btn-sm w-100 mt-2">Áp dụng</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-lg-9">
+            <!-- Controls Bar -->
+            <div class="controls-bar d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <span class="me-3">Hiển thị 1-12 trong 48 sản phẩm</span>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <select class="sort-dropdown">
+                        <option>Sắp xếp theo</option>
+                        <option>Phổ biến</option>
+                        <option>Mới nhất</option>
+                        <option>Giá thấp đến cao</option>
+                        <option>Giá cao đến thấp</option>
+                        <option>Bán chạy</option>
+                        <option>Đánh giá cao</option>
+                    </select>
+                    <div class="view-toggle">
+                        <button class="view-btn active"><i class="fas fa-th"></i></button>
+                        <button class="view-btn"><i class="fas fa-list"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="row" id="products-container">
+                <!-- Sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+            </div>
+
+            <!-- Loading -->
+            <div class="loading">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Đang tải sản phẩm...</p>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Product pagination">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Trước</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Sau</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/sanpham.js"></script>
+}

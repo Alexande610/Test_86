@@ -1,0 +1,59 @@
+﻿<!-- Thanh điều hướng -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="AreasCustomer" asp-controller="Home" asp-action="Index">
+            <img src="~/images/logomoi.png" alt="LittleFish Beauty Logo">
+            LittleFish Beauty
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="search-container ms-3">
+                <div class="position-relative">
+                    <div class="search-wrapper">
+                        <div class="search-form">
+                            <input class="form-control search-input" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search" id="searchInput">
+                            <button class="btn search-btn" type="button" id="searchBtn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Search suggestions dropdown -->
+                    <div class="search-suggestions" id="searchSuggestions">
+                        <div class="search-history" id="searchHistory">
+                            <div class="search-history-title">Tìm kiếm gần đây <span class="clear-history" id="clearHistory">Xóa</span></div>
+                            <div id="historyItems"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="AreasCustomer" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Danh mục sản phẩm</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#" data-category="skincare">Chăm sóc da</a></li>
+                        <li><a class="dropdown-item" href="#" data-category="makeup">Trang điểm</a></li>
+                        <li><a class="dropdown-item" href="#" data-category="haircare">Dưỡng tóc</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" data-category="suncare">Chống nắng</a></li>
+                        <li><a class="dropdown-item" href="#" data-category="essential-oils">Tinh dầu</a></li>
+                        <li><a class="dropdown-item" href="#" data-category="body-care">Chăm sóc cơ thể</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="AreasCustomer" asp-controller="Product" asp-action="Index">Sản phẩm</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+            </ul>
+            <div class="ms-3">
+                <a href="#" class="btn btn-outline-primary">Giỏ hàng 🛒</a>
+                <a href="#" class="btn btn-outline-secondary">Tài khoản 👤</a>
+            </div>
+        </div>
+    </div>
+</nav>
